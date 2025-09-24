@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEADERBOARD</title>
+    <link rel="stylesheet" href="leaderboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="leaderboard-container">
+        <div class="leaderboard-header">
+            <span class="leaderboard-title">QUIZ -IT</span>
+        </div>
+        <div class="leaderboard-main-title">LEADERBOARD</div>
+        <div class="leaderboard-filter-row" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 18px; gap: 12px;">
+            <label for="category-filter" style="font-family: 'Roboto', Arial, sans-serif; font-size: 1.1rem; color: #fff;">Filter by Category:</label>
+            <select id="category-filter" style="font-family: 'Roboto', Arial, sans-serif; font-size: 1.1rem; padding: 6px 12px; border-radius: 6px; border: 1px solid #2eb3ff;">
+                <option value="all">All</option>
+                <option value="science">Science</option>
+                <option value="math">Math</option>
+                <option value="history">History</option>
+                <option value="sports">Sports</option>
+                <option value="tech">Tech</option>
+            </select>
+        </div>
+        <div class="leaderboard-content-flex">
+            <div class="leaderboard-img-block">
+                <img src="leaderboy.png" alt="Trophy Winner" class="leaderboard-img" style="width: 260px; height: auto;">
+            </div>
+            <div class="leaderboard-list-block">
+                <table class="leaderboard-table">
+                    <thead>
+                        <tr>
+                            <th>NAME</th>
+                            <th>REGION</th>
+                            <th>NO. OF QUIZ</th>
+                            <th>SCORE</th>
+                            <th>CATEGORY</th>
+                        </tr>
+                    </thead>
+                </table>
+                <div class="leaderboard-scroll-list">
+                    <div class="leaderboard-row">
+                        <span>1. Aviral Shukla</span>
+                        <span>India</span>
+                        <span>26</span>
+                        <span>50 <img src="trophy.png" class="score-trophy"></span>
+                        <span>Science</span>
+                    </div>
+                    <div class="leaderboard-row">
+                        <span>2. Priya Singh</span>
+                        <span>USA</span>
+                        <span>32</span>
+                        <span>48 <img src="trophy.png" class="score-trophy"></span>
+                        <span>Math</span>
+                    </div>
+                    <div class="leaderboard-row">
+                        <span>3. John Doe</span>
+                        <span>UK</span>
+                        <span>21</span>
+                        <span>45 <img src="trophy.png" class="score-trophy"></span>
+                        <span>History</span>
+                    </div>
+                    <div class="leaderboard-row">
+                        <span>4. Sara Lee</span>
+                        <span>Canada</span>
+                        <span>29</span>
+                        <span>44 <img src="trophy.png" class="score-trophy"></span>
+                        <span>Sports</span>
+                    </div>
+                    <div class="leaderboard-row">
+                        <span>5. Rohan Patel</span>
+                        <span>India</span>
+                        <span>18</span>
+                        <span>42 <img src="trophy.png" class="score-trophy"></span>
+                        <span>Tech</span>
+                    </div>
+                    <div class="leaderboard-row">
+                        <span>6. Emily Clark</span>
+                        <span>Australia</span>
+                        <span>24</span>
+                        <span>41 <img src="trophy.png" class="score-trophy"></span>
+                        <span>Science</span>
+                    </div>
+                    <div class="leaderboard-row">
+                        <span>7. Alex Kim</span>
+                        <span>South Korea</span>
+                        <span>27</span>
+                        <span>40 <img src="trophy.png" class="score-trophy"></span>
+                        <span>Math</span>
+                    </div>
+                    <div class="leaderboard-row">
+                        <span>8. Fatima Noor</span>
+                        <span>UAE</span>
+                        <span>22</span>
+                        <span>39 <img src="trophy.png" class="score-trophy"></span>
+                        <span>History</span>
+                    </div>
+                    <div class="leaderboard-row">
+                        <span>9. Lucas Brown</span>
+                        <span>Brazil</span>
+                        <span>20</span>
+                        <span>38 <img src="trophy.png" class="score-trophy"></span>
+                        <span>Sports</span>
+                    </div>
+                    <div class="leaderboard-row">
+                        <span>10. Mei Lin</span>
+                        <span>China</span>
+                        <span>25</span>
+                        <span>37 <img src="trophy.png" class="score-trophy"></span>
+                        <span>Tech</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="leaderboard-footer">
+            <span class="footer-title">QUIZ IT :</span> ALL RIGHTS ARE RESERVED
+        </footer>
+    </div>
+</body>
+</html>
