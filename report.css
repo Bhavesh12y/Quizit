@@ -127,26 +127,7 @@ body {
     justify-content: flex-start;
     min-width: 300px;
 }
-#report-piechart {
-    margin-bottom: 18px;
-    background: #232a4d;
-    border-radius: 50%;
-    box-shadow: 0 2px 8px rgba(74,144,226,0.12);
-}
-.report-pie-labels {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    align-items: flex-start;
-}
-.pie-label {
-    font-size: 1.1rem;
-    font-family: 'Roboto', Arial, sans-serif;
-    font-weight: 400;
-}
-.pie-correct { color: #009688; }
-.pie-skipped { color: #ffc107; }
-.pie-wrong { color: #e53935; }
+
 .report-footer {
     background: #1a1a2e;
     color: #fff;
@@ -159,26 +140,4 @@ body {
 .footer-title {
     font-weight: 400;
     font-size: 1.1em;
-}
-@media (max-width: 900px) {
-    .report-content-flex {
-        flex-direction: column;
-        gap: 18px;
-    }
-    .report-pie-block {
-        min-width: 0;
-        margin-top: 18px;
-    }
-}
-.piechart {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background: conic-gradient(
-        #009688 0% 50%,      /* Correct 50% */
-        #ffc107 50% 80%,     /* Skipped 30% */
-        #e53935 80% 100%     /* Wrong 20% */
-    );
-    margin: 0 auto 18px auto;
-    box-shadow: 0 2px 8px rgba(74,144,226,0.12);
 }

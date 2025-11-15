@@ -136,12 +136,3 @@ select#category-filter {
     font-weight: bold;
     font-size: 1.1em;
 }
-@media (max-width: 900px) {
-    .leaderboard-content-flex {
-        flex-direction: column;
-        gap: 18px;
-    }
-    .leaderboard-img-block {
-        margin-bottom: 18px;
-    }
-}

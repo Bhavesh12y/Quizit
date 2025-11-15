@@ -1,4 +1,4 @@
-/* ===== Reset & Full Screen ===== */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     flex-direction: column;
 }
 
-/* Navbar */
+
 .header {
     background: rgba(0, 0, 0, 0.3);
     padding: 15px 0;
@@ -62,7 +62,7 @@ body {
 }
 
 
-/* ===== LOGIN SECTION ===== */
+
 .login-section {
     flex: 1;
     width: 100%;
@@ -73,20 +73,6 @@ body {
     padding: 40px;
 }
 
-/* Background Quote */
-.bg-quote {
-    position: absolute;
-    font-size: 3rem;
-    font-weight: bold;
-    color: rgba(255,255,255,0.08);
-    text-align: center;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 0;
-}
-
-/* Container */
 .login-container {
     background: rgba(35, 42, 77, 0.9);
     border-radius: 32px;
@@ -228,19 +214,3 @@ body {
     cursor: pointer;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .login-fields {
-        flex-direction: column;
-        text-align: center;
-    }
-    .imglog {
-        order: -1;
-    }
-    .login-hero-img {
-        width: 200px;
-    }
-    .bg-quote {
-        font-size: 2rem;
-    }
-}

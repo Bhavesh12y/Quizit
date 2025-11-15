@@ -1,4 +1,4 @@
-/* ===== Base Reset ===== */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,20 +12,7 @@ body {
   position: relative;
 }
 
-/* Background */
-.body-bg-img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 55vw;
-  height: 100vh;
-  object-fit: cover;
-  opacity: 0.15;
-  z-index: 0;
-  pointer-events: none;
-}
 
-/* ===== Navbar ===== */
 .header {
   background: rgba(0, 0, 0, 0.2);
   padding: 15px 0;
@@ -68,8 +55,6 @@ body {
   background: rgba(74, 144, 226, 0.2);
 }
 
-/* ===== Sign In Section ===== */
-
 
 .login-section {
   width: 100%;
@@ -77,7 +62,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 80px; /* navbar height gap */
+  padding-top: 80px; 
   position: relative;
   z-index: 1;
 }
@@ -105,7 +90,6 @@ body {
   margin-bottom: 32px;
 }
 
-/* ===== Form Fields ===== */
 .login-form {
   width: 100%;
   display: flex;
@@ -142,7 +126,6 @@ body {
   box-shadow: 0 0 8px rgba(74,144,226,0.4);
 }
 
-/* Already User */
 .already {
   font-size: 1rem;
   color: #fff;
