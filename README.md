@@ -1,29 +1,29 @@
-# Quizit 📝  
+# Quizit 
 
 A simple and engaging quiz application to test your knowledge.  
 
 ---
 
-## 📖 Description  
+## Description  
 **Quizit** is a web-based quiz app that presents users with multiple-choice questions across various topics. With a clean UI, a question timer, and instant scoring, Quizit makes learning both fun and interactive.  
 
 ---
 
-## ✨ Features  
-- 🧩 Multiple-choice questions across different topics  
-- ⏱ Timer for each question to add a challenge  
-- 📊 Instant scoring and feedback at the end of the quiz  
-- 🔄 Option to replay and improve your score  
-- 📱 Responsive design for all screen sizes  
+##  Features  
+-  Multiple-choice questions across different topics  
+-  Timer for each question to add a challenge  
+-  Instant scoring and feedback at the end of the quiz  
+-  Option to replay and improve your score  
+-  Responsive design for all screen sizes  
 
 ---
 
-## 🛠 Tech Stack  
+## Tech Stack  
 - **Frontend:** HTML, CSS, JavaScript  
 - **Framework:** React.js (or alternatives like Vue.js / Svelte)  
 - **Deployment:** Vercel  
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are always welcome!  
 
@@ -40,12 +40,12 @@ git push origin feature/YourFeatureName
 # 5. Open a Pull Requests
 ```
 
-## 🚀 Getting Started  
+## Getting Started  
 
-### ✅ Prerequisites  
+###  Prerequisites  
 - [Node.js](https://nodejs.org/) and npm (or yarn) installed  
 
-### ⚙️ Installation  
+###  Installation  
 ```bash
 # Clone the repository
 git clone https://github.com/your-username/quizit.git
